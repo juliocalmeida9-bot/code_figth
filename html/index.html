@@ -3,10 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shandow Figth</title>
+    <title>Sandow Fight</title>
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <canvas>vida</canvas>
-    
+    <h1>Sandow Fight</h1>
+    <div id="game-area">
+        <!-- As imagens dos personagens serão inseridas via JS -->
+    </div>
+    <canvas id="vida" width="400" height="40" style="display:block; margin:20px 0;"></canvas>
+    <div>
+        <h3>Controles:</h3>
+        <ul>
+            <li><b>Roberto:</b> S (Soco), D (Chute), F (Poder)</li>
+            <li><b>Outro personagem:</b> J (Soco), K (Chute), L (Poder)</li>
+        </ul>
+    </div>
+    <script src="../js/roberto.js"></script>
+    <!-- <script src="../js/sandow.js"></script> -->
+    <script src="../js/main.js"></script>
 </body>
 </html>
